@@ -2,7 +2,7 @@ const asyncHandler = require('express-async-handler');
 const User = require('../models/userModel');
 const generateToken = require('../utils/generateToken');
 
-//@desc auth user ang get token
+//@desc auth user and get token
 //@rotue api/auth/login
 //@access public
 const authUser = asyncHandler(async (req, res) => {
